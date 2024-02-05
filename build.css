@@ -62,6 +62,6 @@
 .textcols-right {
 	float: center;
 	width: 75%;
-	margin-left: 30%;
-	background: #fff2e1;
+
+	background: url(Images/nm.jpg);
 }
