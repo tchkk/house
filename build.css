@@ -57,7 +57,7 @@
 .textcols-left {
 	float: left;
 	width: 25%;
-	 position: sticky;
+	position: relative;
 	top: 0;
 	background: #fff2e1;
 }
