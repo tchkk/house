@@ -57,7 +57,7 @@
     grid-gap: 10px;
 }
 .grid .col {
-    background-color: #337AB7;
+    background-color: url(Images/nm.jpg);
     display: grid;
     place-items: center;
     color: #fff;
