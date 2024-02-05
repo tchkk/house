@@ -51,24 +51,15 @@
   margin: 0 30px;
 }
 }
-.grid {
-    background: url(Images/nm.jpg);
-    display: grid;
-    grid-gap: 10px;
+.textcols {
+	overflow: hidden;
 }
-.grid .col {
-    background-color: url(Images/nm.jpg);
-    display: grid;
-    place-items: center;
-    color: #fff;
-    font-weight: bold;
-    padding: 30px;
-    font-size: 28px;
+.textcols-left {
+	float: left;
+	width: 48%;
+	background: #fff2e1;
 }
-.grid.template-4 {
-    grid-template: "a sidebar" "b sidebar";
+.textcols-right {
+	margin-left: 52%;
+	background: #fff2e1;
 }
-.grid.template-4 > :nth-child(3) {
-    grid-area: sidebar;
-}
-
