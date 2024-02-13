@@ -55,9 +55,10 @@
 	overflow: hidden;
 }
 .textcols-left {
+	
 	float: left;
 	width: 25%;
-	position: relative;
+	position: fixed;
 	top: 0;
 	background: #fff2e1;
 }
