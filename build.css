@@ -9,7 +9,7 @@
 .menu-main li {display: inline-block;}
 .menu-main li:after {
   content: "|";
-  color: #1D1D1D;
+  color: #000;
   display: inline-block;
   vertical-align:top;
 }
@@ -26,7 +26,7 @@
   display: inline-block;
   transition: color .2s;
 }
-.menu-main a, .menu-main a:visited {color: #1D1D1D;}
+.menu-main a, .menu-main a:visited {color: #000;}
 .menu-main a.current, .menu-main a:hover{color: #feb386;}
 .menu-main a:before,
 .menu-main a:after {
